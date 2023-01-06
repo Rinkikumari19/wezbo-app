@@ -1,38 +1,67 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-menu {
+  color: #fff;
+  flex-wrap: wrap;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  position: relative;
+  top: 17px;
+  /* align-items: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.nav-div {
+  background-color: #881852;
+  /* padding: 10px; */
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-right {
+  margin-right: 30px;
+}
+
+.wizbo-img {
+  width: 100%;
+  height: 140px;
+  position: relative;
+  bottom: 40px;
+}
+
+.clock-btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  background: #36021d;
+  color: #fff;
+}
+
+.dashboard-img {
+  width: 80%;
+  height: auto;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #504b4b;
+}
+
+.App p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #373333;
+}
+
+.h1-style {
+  position: relative;
+  bottom: 20px;
+}
+.p-para{
+  position: relative;
+  bottom: 15px;
 }
